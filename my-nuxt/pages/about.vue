@@ -1,8 +1,8 @@
 <template>
     <div>
         <h2>About</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis maiores excepturi iste consectetur ratione expedita sed soluta culpa aliquid saepe voluptates, molestiae dolorem enim sunt porro non quibusdam id sint!</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis maiores excepturi iste consectetur ratione expedita sed soluta culpa aliquid saepe voluptates, molestiae dolorem enim sunt porro non quibusdam id sint!</p>
+        <p>The Harrods motto is Omnia Omnibus Ubique, which is Latin for "all things for all people, everywhere". Several of its departments, including the Seasonal Christmas department and the Food Halls, are well known.</p>
+        <p>Harrods was also a founder of the International Association of Department Stores in 1928, which is still active today, and remained a member until 1935.Franck Chitham, Harrods' president at the time, was president of the Association in 1930.</p>
     </div>
 </template>
 
