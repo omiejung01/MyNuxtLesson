@@ -1,0 +1,28 @@
+<template>
+  <div>
+    <div class="grid grid-cols-4 gap-5">
+      <div v-for="p in products">
+        <ProductCard :product="p" />
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+  //  fetch the products
+  // https://fuzik03.tetraserver.com/compactdisc_list
+  const { data: products } = await useFetch('https://fuzik03.tetraserver.com/compactdisc_list')
+
+  //const { data: products } = await useFetch('https://fakestoreapi.com/products')
+
+  definePageMeta({
+    layout: "products",
+  })
+
+  useHead({
+    title: 'Compact Disc Store | Products',
+    meta: [
+      { name: 'description', content: 'Nuxt 3 Products'}
+    ]
+  })
+</script>
